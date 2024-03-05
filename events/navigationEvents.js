@@ -1,4 +1,11 @@
+import { signOut } from '../utils/auth';
 // Navigation events
+const navigationEvents = () => {
 // logout button
-// filter buttons
-// All cards
+  document.querySelector('#logout-button')
+    .addEventListener('click', signOut);
+  // filter buttons
+  // All cards
+};
+
+export default navigationEvents;
