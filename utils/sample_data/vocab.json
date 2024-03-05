@@ -1,0 +1,98 @@
+{
+  "-Ns-4uABU-iyYV7aXIjl": {
+    "firebaseKey": 1,
+    "title": "Array",
+    "definition": "An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values under a single variable name. A regular variable, on the other hand, can store only one value.Each item in an array has a number attached to it, called a numeric index, that allows you to access it. In JavaScript, arrays start at index zero and can be manipulated with various methods.",
+    "timeSubmitted": "2024-01-21 12:52:52",
+    "uid": "",
+    "language_id": "Javascript"
+  },
+  "-Ns-4uABU-iyYV7aXIjm": {
+    "firebaseKey": 2,
+    "title": "Boolean",
+    "definition": "Boolean is a datatype that returns either of two values i.e. true or false. In JavaScript, Boolean is used as a function to get the value of a variable, object, conditions, expressions, etc. in terms of true or false.",
+    "timeSubmitted": "2023-11-11 11:09:24",
+    "uid": "",
+    "language_id": "Javascript"
+  },
+  "-Ns-4uACu8MGAt4htXc-": {
+    "firebaseKey": 3,
+    "title": "Object",
+    "definition": "An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method. Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life.",
+    "timeSubmitted": "2023-07-07 01:23:13",
+    "uid": "",
+    "language_id": "Javascript"
+  },
+  "-Ns-4uADtZHR1lkck3jq": {
+    "firebaseKey": 4,
+    "title": "For Loop",
+    "definition": "The for loop is an iterative statement which you use to check for certain conditions and then repeatedly execute a block of code as long as those conditions are met.",
+    "timeSubmitted": "2023-06-25 22:45:20",
+    "uid": "",
+    "language_id": "Javascript"
+  },
+  "-Ns-4uAEOn4-R47fwJOF": {
+    "firebaseKey": 5,
+    "title": "If Statement",
+    "definition": "Use if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false. Use else if to specify a new condition to test, if the first condition is false.",
+    "timeSubmitted": "2023-10-12 00:08:45",
+    "uid": "",
+    "language_id": "Javascript"
+  },
+  "-Ns-4uAF5_JN0FWij0-S": {
+    "firebaseKey": 6,
+    "title": "Flexbox",
+    "definition": "The flexbox or flexible box model in CSS is a one-dimensional layout model that has flexible and efficient layouts with distributed spaces among items to control their alignment structure ie., it is a layout model that provides an easy and clean way to arrange items within a container. Flexbox can be useful for creating small-scale layouts & is responsive and mobile-friendly.",
+    "timeSubmitted": "2023-10-15 22:53:19",
+    "uid": "",
+    "language_id": "CSS"
+  },
+  "-Ns-4uAGxbXfe0g1gtrU": {
+    "firebaseKey": 7,
+    "title": "Box Model",
+    "definition": "The box model in CSS is a container that contains various properties, including borders, margins, padding, and the content itself. These properties collectively determine the dimensions and spacing of an element.",
+    "timeSubmitted": "2023-11-09 16:10:47",
+    "uid": "",
+    "language_id": "CSS"
+  },
+  "-Ns-4uAHJkl2ecaN5OqW": {
+    "firebaseKey": 8,
+    "title": "Positioning",
+    "definition": "Positioning allows you to take elements out of normal document flow and make them behave differently, for example, by sitting on top of one another or by always remaining in the same place inside the browser viewport. ",
+    "timeSubmitted": "2023-05-26 20:42:32",
+    "uid": "",
+    "language_id": "CSS"
+  },
+  "-Ns-4uAIYAIDcq27lXEI": {
+    "firebaseKey": 9,
+    "title": "Id",
+    "definition": "The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document. The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.",
+    "timeSubmitted": "2023-12-27 00:32:45",
+    "uid": "",
+    "language_id": "HTML"
+  },
+  "-Ns-4uAJ2t7HAFSw-v7h": {
+    "firebaseKey": 10,
+    "title": "Class",
+    "definition": "The class is an attribute that specifies one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name.",
+    "timeSubmitted": "2023-03-05 04:40:56",
+    "uid": "",
+    "language_id": "HTML"
+  },
+  "-Ns-4uAJ2t7HAFSw-v7i": {
+    "firebaseKey": 11,
+    "title": "Paragraphs",
+    "definition": "The <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.",
+    "timeSubmitted": "2023-11-28 20:07:21",
+    "uid": "",
+    "language_id": "HTML"
+  },
+  "-Ns-4uAKhU70Lnq_n27W": {
+    "firebaseKey": 12,
+    "title": "Inline Styling",
+    "definition": "Inline styles are styles that are applied to a specific element within the body section of the webpage. The style will be applied to that individual element only rather than to the entire page (internal style) or across all linked pages (external style sheet).",
+    "timeSubmitted": "2023-12-29 09:24:10",
+    "uid": "",
+    "language_id": "HTML"
+  }
+}
