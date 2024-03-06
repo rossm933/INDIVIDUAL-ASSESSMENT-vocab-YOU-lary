@@ -1,4 +1,7 @@
 import { signOut } from '../utils/auth';
+import getVocab from '../api/vocabData';
+import showVocab from '../pages/vocab';
+
 // Navigation events
 const navigationEvents = () => {
 // logout button
@@ -6,6 +9,9 @@ const navigationEvents = () => {
     .addEventListener('click', signOut);
   // filter buttons
   // All cards
+  document.querySelector().addEventListener('click', () => {
+    getVocab().then(showVocab);
+  });
 };
 
 export default navigationEvents;
