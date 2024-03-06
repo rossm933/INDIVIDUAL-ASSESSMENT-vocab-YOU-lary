@@ -1,9 +1,10 @@
 import client from '../utils/client';
 
 const endpoint = client.databaseURL;
-// Get Vocab
-const getVocab = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary.json?orderBy="uid"&equalTo="${uid}"`, {
+
+// GET ALL language
+const getLanguage = (uid) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/Language.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application.json',
@@ -20,9 +21,4 @@ const getVocab = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// Delete Vocab
-// Get Single Card
-// Create Card
-// Update Card
-// Filter Cards by Language
-export default getVocab;
+export default getLanguage;
