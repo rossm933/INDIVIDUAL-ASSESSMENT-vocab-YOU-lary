@@ -9,7 +9,7 @@ const navigationEvents = () => {
     .addEventListener('click', signOut);
   // filter buttons
   // All cards
-  document.querySelector('#all-vocab').addEventListener('click', () => {
+  document.querySelector().addEventListener('click', () => {
     getVocab().then(showVocab);
   });
 };

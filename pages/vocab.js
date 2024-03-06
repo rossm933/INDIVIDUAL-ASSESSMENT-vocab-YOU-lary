@@ -6,12 +6,13 @@ const emptyVocab = () => {
   const domString = '<h1>No Words</h1>';
   renderToDOM('#vocab-cards', domString);
 };
-const showVocab = (array) => {
-  clearDom();
+const showVocab = (array, shouldClear = true) => {
+  if (shouldClear === true) {
+    clearDom();
 
-  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-word">Input Word</button>';
-  renderToDOM('#add-button', btnString);
-
+    const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-word">Input Word</button>';
+    renderToDOM('#add-button', btnString);
+  }
   let domString = '';
   array.forEach((item) => {
     domString = +`
