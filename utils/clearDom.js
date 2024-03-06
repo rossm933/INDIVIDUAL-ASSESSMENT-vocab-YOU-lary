@@ -1,5 +1,6 @@
 const clearDom = () => {
-  document.querySelector('#app').innerHTML = '';
+  document.querySelector('#vocab-cards').innerHTML = '';
+  document.querySelector('#add-button').innerHTML = '';
 };
 
 export default clearDom;
