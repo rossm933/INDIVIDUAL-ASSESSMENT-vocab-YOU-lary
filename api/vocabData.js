@@ -71,6 +71,21 @@ const updateVocab = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 // Filter Cards by Language
+const getHtmlVocab = (uid) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json?orderBy="uid"&equalTo="${uid}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const HtmlVocab = Object.values(data).filter((obj) => obj.language_id === '-NsG7vgSMqu73Y3bjQYc');
+      resolve(HtmlVocab);
+    })
+    .catch(reject);
+});
+
 export {
-  getVocab, deleteVocab, createVocab, updateVocab, getSingleVocab
+  getVocab, deleteVocab, createVocab, updateVocab, getSingleVocab, getHtmlVocab
 };
