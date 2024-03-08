@@ -4,11 +4,11 @@ const endpoint = client.databaseURL;
 
 // GET ALL language
 const getLanguage = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/Language.json?orderBy="uid"&equalTo="${uid}"`, {
+  fetch(`${endpoint}/language.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
-      'Content-Type': 'application.json',
-    }
+      'Content-Type': 'application/json',
+    },
   })
     .then((response) => response.json())
     .then((data) => {
@@ -21,4 +21,17 @@ const getLanguage = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export default getLanguage;
+// GET SINGLE LANGUAGE
+const getSingleLanguage = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/language/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+export { getLanguage, getSingleLanguage };
