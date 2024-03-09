@@ -72,7 +72,7 @@
     "language_id": "-NsG7vgSMqu73Y3bjQYc"
   },
   "-Ns-4uAJ2t7HAFSw-v7h": {
-    "firebaseKey": 10,
+    "firebaseKey": "-Ns-4uAJ2t7HAFSw-v7h",
     "title": "Class",
     "definition": "The class is an attribute that specifies one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name.",
     "timeSubmitted": "2023-03-05 04:40:56",
@@ -80,7 +80,7 @@
     "language_id": "-NsG7vgSMqu73Y3bjQYc"
   },
   "-Ns-4uAJ2t7HAFSw-v7i": {
-    "firebaseKey": 11,
+    "firebaseKey": "-Ns-4uAJ2t7HAFSw-v7i",
     "title": "Paragraphs",
     "definition": "The <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.",
     "timeSubmitted": "2023-11-28 20:07:21",
@@ -88,7 +88,7 @@
     "language_id": "-NsG7vgSMqu73Y3bjQYc"
   },
   "-Ns-4uAKhU70Lnq_n27W": {
-    "firebaseKey": 12,
+    "firebaseKey": "-Ns-4uAKhU70Lnq_n27W",
     "title": "Inline Styling",
     "definition": "Inline styles are styles that are applied to a specific element within the body section of the webpage. The style will be applied to that individual element only rather than to the entire page (internal style) or across all linked pages (external style sheet).",
     "timeSubmitted": "2023-12-29 09:24:10",

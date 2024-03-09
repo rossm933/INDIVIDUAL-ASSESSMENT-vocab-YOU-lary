@@ -7,6 +7,7 @@ import domEvents from '../events/domEvents';
 import formEvents from '../events/formEvents';
 import navigationEvents from '../events/navigationEvents';
 import filterButtons from '../components/buttons/filterButton';
+import filterEvents from '../events/filterEvents';
 
 const startApp = (uid) => {
   domBuilder(); // BUILD THE DOM
@@ -16,6 +17,7 @@ const startApp = (uid) => {
   formEvents(uid);
   navigationEvents(uid);
   filterButtons();
+  filterEvents(uid);
   getVocab(uid).then((vocab) => showVocab(vocab, uid));
 };
 export default startApp;
