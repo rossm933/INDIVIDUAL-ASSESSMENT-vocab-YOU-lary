@@ -3,8 +3,47 @@
 
 
 body {
-  background-color: antiquewhite;
+  background-color: #3e567c;
   color: brown;
   text-align: center;
   margin-top: 100px;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+#logo {
+  font-weight: bold;
+  color: teal;
+}
+
+#create-card {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.btn-filter {
+  background-color:  darkgray;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.btn-logout, .btn-login {
+  background-color: orange;
+}
+
+#vocab-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.card {
+  margin-bottom: 10px;
+  border: solid 5px black;
+  border-radius: 10px;
+  background-color: #a7bbcb;
 }
